@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-rectangle"></div>
+
+            <ul class="city-list">
+                <li class="city-item"><a href="#" class="city-item-link current">САНКТ-ПЕТЕРБУРГ</a></li>
+                <li class="city-item"><a href="#" class="city-item-link">МОСКВА</a></li>
+                <li class="city-item"><a href="#" class="city-item-link">МИНСК</a></li>
+            </ul>
+
+            <div id="menu">
+                <nav class="menu" id="nav">
+                    <ul class="menu-item-list">
+                        <li class="menu-item"><a href="#programm" class="menu-item-link">Программа</a></li>
+                        <li class="menu-item"><a href="#feedback" class="menu-item-link">Отзывы</a></li>
+                        <li class="menu-item"><a href="#price" class="menu-item-link">Стоимость</a></li>
+                        <li class="menu-item"><a href="#teacher" class="menu-item-link">О преподавателе</a></li>
+                        <li class="menu-item"><a href="#price" class="menu-item-link current">Запись на курс</a></li>
+                    </ul>
+                </nav>
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+            </div>
+
+            <div class="menu-bg" id="menu-bg"></div>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="start-screen">
+
+            <div class="container">
+                <div class="start-screen-content">
+                    <h1 class="content-item">Санкт-петербург 10-21 мая</h1>
+                    <p class="section-description content-item">Начни делать
+                        Customer Development и проверять гипотезы</p>
+                    <p class="section-workshop-description content-item">На оффлайн-курсе из 5 воркшопов</p>
+                    <button class="sign-in content-item"><span class="button-rectangle">ЗАПИСАТЬСЯ</span></button>
+
+                </div>
+
+                <div class="feedback-wrapper">
+                    <div class="feedback-container">
+                        <div class="feedback" id="feedback">
+                            <div class="feedback-title">Оценка</div>
+                            <div class="feedback-score">9 из 10</div>
+                            <div class="feedback-name">Иван Матвиенко <br> <b>Wimprof</b></div>
+                            <button class="feedback-btn read-more">Читать отзыв &#129042;</button>
+                        </div>
+                        <div class="feedback-text">Q: Почему мы решили его заказать?
+                            A: Да потому что 90% всех проблем в том, что мы хоть и умеем делать, а делаем не то, что
+                            нужно
+                            нашему пользователю. И
+                            то, о чём рассказывает Ваня, неплохо это лечит.
+                            <button class="back-button feedback-btn explain">Hазад &#129042;</button>
+                        </div>
+                    </div>
+                    <div class="why-to-order">Q: Почему мы решили его заказать?
+                        A: Да потому что 90% всех проблем в том, что мы хоть и умеем делать, а делаем не то, что нужно
+                        нашему пользователю. И
+                        то, о чём рассказываетВаня, неплохо это лечит.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-to-know">
+            <div class="container">
+                <div class="why-to-know-circle"></div>
+                <h2 class="section-title">Кому и зачем знать Customer Development</h2>
+                <ul class="why-to-know-item-wrapper">
+                    <li class="why-to-know-item">
+                        <h3 class="explain">ПРОДУКТОВОМУ ДИЗАЙНЕРУ</h3>
+                        <p class="text-content">лучше узнать потребность клиента и научиться быстро проверять прототипы
+                            и макеты на пользователях чтобы исправлять
+                            ошибки и делать интерфейсы кратно качественнее</p>
+                    </li>
+                    <li class="why-to-know-item">
+                        <h3 class="explain">ПРОДАКТ-МЕНЕДЖЕРАМ</h3>
+                        <p class="text-content">идеально знать мотивацию своих пользователей и принимать продуктовые
+                            решения быстрее и значительно качественнее</p>
+                    </li>
+                    <li class="why-to-know-item">
+                        <h3 class="explain">ОСНОВАТЕЛЯМ СТАРТАПОВ</h3>
+                        <p class="text-content">запустить процесс проверки гипотез в котором вы быстрее и ЗНАЧИТЕЛЬНО
+                            дешевле найдёте product-market fit</p>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="corse-programm" id="programm">
+            <div class="container">
+                <h2 class="section-title">Что будет на курсе</h2>
+                <ul class="corse-description">
+                    <li class="corse-description-item">
+                        <h3 class="explain">7 лекций</h3>
+                        <p class="text-content">насыщенных практикой</p>
+                    </li>
+                    <li class="corse-description-item">
+                        <h3 class="explain">2 гипотезы</h3>
+                        <p class="text-content">минимум, которые проверишь на курсе</p>
+                    </li>
+                    <li class="corse-description-item">
+                        <h3 class="explain">3 методички</h3>
+                        <p class="text-content">с пошаговым описанием действий как провести классный CustDev и как
+                            проверить любую гипотезу</p>
+                    </li>
+                    <li class="corse-description-item">
+                        <h3 class="explain">20 интервью</h3>
+                        <p class="text-content">с пользователями твоего продукта</p>
+                    </li>
+                </ul>
+                <a href="" class="see-the-programm explain">Смотреть программу полностью</a>
+            </div>
+        </section>
+
+        <section class="result">
+            <div class="container">
+                <h2 class="section-title">Результат</h2>
+                <ul class="result-item-wrapper">
+                    <li class="result-item">
+                        <h3 class="item-title">Ты начнёшь делать Customer Development и проверять гипотезы в
+                            своём
+                            проекте
+                        </h3>
+                        <p class="text-content">Структура курса построена построена вокруг практики в проектах
+                            участников курса. 100% слушателей этого курса будут
+                            применять оба навыка в своих проектах</p>
+                    </li>
+                    <li class="result-item">
+                        <h3 class="item-title">Заведенный процесс</h3>
+                        <p class="text-content">Обязательной частью обучения будет встройка процессов постоянного
+                            Customer Development и проверки гипотез в ежедневную
+                            рутину</p>
+                    </li>
+                    <li class="result-item">
+                        <h3 class="item-title">Инструменты, которые останутся с вами надолго</h3>
+                        <p class="text-content">Все участники курса получат два набора карт — конструкторы, из которых
+                            можно будет собрать идеальный процесс Customer
+                            Development и проверить любую гипотезу</p>
+                    </li>
+                    <li class="result-item">
+                        <h3 class="item-title">Кейсы и приёмы топовых компаний рунета</h3>
+                        <p class="text-content">Расскажу и разберём кейсы, хаки и нюансы топовых команд России: SkyEng,
+                            Яндекс, Chatfuel</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="why-to-trust" id="teacher">
+            <div class="container">
+                <h2 class="section-title">Почему мне можно доверять</h2>
+                <div class="video-wrapper">
+                    <div class="video-text">
+                        <h3 class="big-title">Алексей Иванов</h3>
+                        <p class="text-content">Ex-Lead Product Manager</p>
+                    </div>
+                    <div class="video-screen">
+                        <video src="./img/video.mp4" controls class="video">
+                            <p>Ваш браузер не поддерживает HTML5 видео. Используйте <a href="rabbit320.webm">ссылку на
+                                    видео</a> для доступа.
+                            </p>
+                        </video>
+                    </div>
+                </div>
+                <ul class="expirience-wrapper">
+                    <li class="experience-item">
+                        <h3 class="item-title">Опыт в продукте</h3>
+                        <p class="text-content">Отвечал за продукт поиска по изображениям, с помощью Customer
+                            Development и юзабилити-исследований добились кратного
+                            роста метрик</p>
+                    </li>
+                    <li class="experience-item">
+                        <h3 class="item-title">Обучил CustDev 400+ человек</h3>
+                        <p class="text-content">400+ человек уже прошли курс по CustDev и проверке гипотез в рамках
+                            отдельного курса, так и в составе программы
+                            "Руководитель digital-продукта"
+                        </p>
+                    </li>
+                    <li class="experience-item">
+                        <h3 class="item-title">Опыт разработки бота</h3>
+                        <p class="text-content">Создавали с нуля конструктор ботов для Messenger и выводили в лидеры
+                            рынка конструкторов ботов</p>
+                    </li>
+                    <li class="experience-item">
+                        <h3 class="item-title">Топ-2 — оценка лектора</h3>
+                        <p class="text-content">Урезанный курс также читал в крупных digital -школах, студенты оценили
+                            как Топ-2 преподавателя</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="last-corses">
+            <div class="container">
+                <h2 class="section-title">Как проходили прошлые потоки</h2>
+                <ul class="last-corses-gallery">
+                    <li class="gallery-item"><img src="./img/last-corses/last-corses1.jpg" alt="corse-picture"></li>
+                    <li class="gallery-item"><img src="./img/last-corses/last-corses2.jpg" alt="corse-picture"></li>
+                    <li class="gallery-item"><img src="./img/last-corses/last-corses3.jpg" alt="corse-picture"></li>
+                    <li class="gallery-item"><img src="./img/last-corses/last-corses4.jpg" alt="corse-picture"></li>
+                    <li class="gallery-item"><img src="./img/last-corses/last-corses5.jpg" alt="corse-picture"></li>
+                    <li class="gallery-item"><img src="./img/last-corses/last-corses6.jpg" alt="corse-picture"></li>
+                    <li class="gallery-item"><img src="./img/last-corses/last-corses7.jpg" alt="corse-picture"></li>
+                    <li class="gallery-item"><img src="./img/last-corses/last-corses8.jpg" alt="corse-picture"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="price" id="price">
+            <div class="container">
+                <h2 class="section-title">Стоимость для компаний</h2>
+                <ul class="price-wrapper">
+                    <li class="price-item">
+                        <h3 class="big-title">32 900 ₽</h3>
+                        <p class="explain">1 сотрудник</p>
+                        <button class="sign-in register"><span class="button-rectangle">ОФОРМИТЬ</span></button>
+                        <!-- <button class="register">ОФОРМИТЬ</button> -->
+                    </li>
+                    <li class="price-item">
+                        <h3 class="big-title">29 900 ₽ / чел</h3>
+                        <p class="explain">2 сотрудника</p>
+                        <button class="sign-in register"><span class="button-rectangle">ОФОРМИТЬ</span></button>
+                        <!-- <button class="register">ОФОРМИТЬ</button> -->
+                    </li>
+                    <li class="price-item beneficial-wrapper">
+                        <p class="beneficial">выгодно</p>
+                        <h3 class="big-title">26 900 ₽ / чел</h3>
+                        <p class="explain">5+ сотрудников</p>
+                        <button class="sign-in register"><span class="button-rectangle">ОФОРМИТЬ</span></button>
+                        <!-- <button class="register">ОФОРМИТЬ</button> -->
+                    </li>
+                    <li class="price-item">
+                        <h3 class="big-title">25 900 ₽</h3>
+                        <p class="explain">Тариф «Для себя»</p>
+                        <button class="sign-in register"><span class="button-rectangle">ОФОРМИТЬ</span></button>
+                        <!-- <button class="register">ОФОРМИТЬ</button> -->
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-up">
+            <div class="container">
+                <ul class="city-list">
+                    <li class="city-item"><a href="#" class="city-item-link">САНКТ-ПЕТЕРБУРГ</a></li>
+                    <li class="city-item"><a href="#" class="city-item-link">МОСКВА</a></li>
+                    <li class="city-item"><a href="#" class="city-item-link">МИНСК</a></li>
+                </ul>
+                <div class="footer-social">Мы в соцсетях:
+                    <ul class="footer-social-list">
+                        <li class="footer-social-item">
+                            <a href="https://www.facebook.com/" class="facebook" target="_blank"></a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="https://twitter.com/" class="twitter" target="_blank"></a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="https://www.instagram.com/" class="instagram" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-item"><a href="" class="menu-item-link current">Запись на курс</a></div>
+            </div>
+        </div>
+        <div class="footer-down">
+            <div class="container">
+                <div>Все права защищены © 2018</div>
+                <div><a href="">Договор-оферта</a></div>
+                <div><a href="">Политика конфиденциальности</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

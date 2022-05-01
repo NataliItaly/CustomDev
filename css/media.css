@@ -1,0 +1,317 @@
+@media (max-width: 1435px) {
+    .start-screen {
+        background-image: url("../img/rectangle-azzure.png");
+        background-repeat: no-repeat;
+        background-position-y: top;
+        background-position-x: 0px;
+    }
+    .start-screen .container {
+        background-image: url("../img/rectangle-picture.png"),
+        url("../img/rectangle-blue.png");
+        background-repeat: no-repeat;
+        background-position-x: 60px;
+        background-position-y: 0px;
+    }
+    .why-to-know .container {
+        background-position-x: 0px;
+        background-position-y: 0;
+        background-size: cover;
+    }
+    .last-corses-gallery {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 1393px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .feedback-wrapper {
+        left: 30px;
+        right: 30px;
+    }
+    .why-to-know .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 1210px) {
+    .logo-rectangle {
+        display: none;
+    }
+    .header .container {
+        flex-direction: row-reverse;
+    }
+    .menu-bg,
+    #menu {
+        top: 12px;
+        left: 0;
+        position: absolute;
+    }
+    #menu {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu {
+        display: none;
+    }
+    .menu.change {
+        padding: 40px;
+    }
+    .menu-item-list {
+        flex-direction: column;
+    }
+    .header .menu-item {
+        margin-top: 20px;
+    }
+    .header .menu-item-link {
+        font-size: 20px;
+    }
+    #menu-bar {
+        display: block;
+    }
+    .change-bg {
+        width: 128%;
+        height: 800px;
+        transform: translate(-56%, -6%);
+        /* z-index: 3; */
+    }
+    .change {
+        display: block;
+    }
+    .city-list {
+        z-index: 0;
+    }
+    .feedback-wrapper {
+        bottom: -70px;
+    }
+    .why-to-order {
+        margin-top: 85px;
+        align-self: flex-end;
+    }
+    .why-to-know {
+        padding-top: 100px;
+    }
+    .why-to-know-circle {
+        right: 30px;
+        top: 40px;
+    }
+    .price-wrapper {
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .price {
+        padding-bottom: 40px;
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 1150px) {
+    .experience-item {
+        padding-top: 85px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .why-to-know {
+        height: fit-content;
+    }
+    .why-to-know-item-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .video-wrapper {
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .video-text {
+        margin-bottom: 40px;
+    }
+    .video-screen {
+        width: 100%;
+    }
+    .why-to-trust .section-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .result .container {
+        background-size: cover;
+    }
+    
+}
+
+@media (max-width: 858px) {
+    footer {
+        height: fit-content;
+    }
+    .footer-up .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: space-evenly;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footer-down .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 40px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .footer-down {
+        height: fit-content;
+    }
+    
+    .city-list {
+        flex-direction: column;
+        width: 170px;
+    }
+    
+    .footer-social {
+        align-items: flex-start;
+        padding-top: 11px;
+    }
+    footer .menu-item {
+        margin-top: 0;
+    }
+    footer .menu-item-link {
+        font-size: 16px;
+    }
+    .footer-social-list {
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 810px) {
+    .start-screen {
+        height: fit-content;
+    }
+    .feedback-wrapper {
+        flex-direction: column;
+        position: static;
+        margin-top: 30px;
+    }
+    .why-to-order {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 758px) {
+    .start-screen .section-description {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 630px) {
+    .start-screen-content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .section-description {
+        text-align: right;
+    }
+    .section-workshop-description {
+        text-align: right;
+    }
+    .price {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 580px) {
+    .result-item {
+        width: 100%;
+        height: fit-content;
+    }
+    footer .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 510px) {
+    .why-to-order,
+    .feedback-container {
+        align-self: center;
+    }
+    .corse-description {
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .start-screen .section-description {
+        font-size: 32px;
+    }
+    .result-item {
+        padding: 100px 20px 20px;
+        background-position: center 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .start-screen h1 {
+        font-size: 13px;
+        width: 70%;
+        text-align: right;
+    }
+}
+
+@media (max-width: 420px) {
+    .start-screen .container,
+    .header .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .feedback-wrapper {
+        width: 97%;
+    }
+    .feedback-container {
+        width: 100%;
+    }
+    .feedback {
+        width: 210px;
+        height: 210px;
+    }
+    .feedback-text {
+        width: 282px;
+        height: 282px;
+        box-shadow: 0px 10px 30px #3272c8;
+        bottom: 16px;
+    }
+    .why-to-order {
+        width: 100%;
+        height: fit-content;
+    }
+    .start-screen .section-description {
+        font-size: 23px;
+    }
+    .see-the-programm {
+        font-size: 13px;
+    }
+    .item-title {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 338px) {
+    .feedback-text {
+        
+    }
+    .feedback {
+        bottom: 62px;
+    }
+}
